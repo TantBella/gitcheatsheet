@@ -36,11 +36,11 @@
 {"gitcommand": "git cherry-pick <commit>",
 "beskrivning": "Tillämpa en commit från en annan branch. Används för att ta med specifika ändringar."},
 
+{"gitcommand": "git clean -f",
+"beskrivning": "Tar bort oanvända filer. Används för att rensa arbetskatalogen."},
 
-
-
-
-
+{"gitcommand": "git clone (url)",
+"beskrivning": "Skapar en lokal kopia av ett repository. Används för att ladda ner ett repo."},
 
 
 
