@@ -192,6 +192,10 @@
         "gitcommand": "git remote -v",
         "beskrivning":  "Visar alla fjärr-repositorier (remote repositories) som är kopplade till ditt lokala git-repository."
     },
+    {
+        "gitcommand": "git remote remove <name>",
+        "beskrivning":  "Används för att ta bort en fjärr-repository (remote) från din lokala git-konfiguration."
+    },
 
 
 
