@@ -109,10 +109,10 @@
   "gitcommand": "git fetch --prune",
 "beskrivning": "Används för att hämta  uppdateringar från fjärr-repot och rensar bort lokala referenser till brancher som har raderats från fjärr-repot."
 },
-
-
-
-
+{
+  "gitcommand": "git gc",
+"beskrivning": "Används för att optimera ditt Git-repo genom att ta bort oanvända eller onödiga filer och referenser. Det gör att ditt repo kan bli mer effektivt och mindre i storlek."
+},
 
 
 
