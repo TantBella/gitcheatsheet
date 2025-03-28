@@ -93,10 +93,10 @@
   "gitcommand": "git diff",
 "beskrivning": "Används för att visa skillnader mellan olika versioner av filer i ett Git-repo."
 },
-
-
-
-
+{
+  "gitcommand": "git diff --staged",
+"beskrivning": "Används för att visa skillnader mellan de stageade ändringarna och den senaste committen."
+},
 
 
 
