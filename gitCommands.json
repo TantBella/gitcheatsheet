@@ -121,10 +121,10 @@
   "gitcommand": "git log",
 "beskrivning": "Används för att visa historiken av commits i ett Git-repository. Det visar en lista över de senaste commits, inklusive deras hash-id, författare, datum och commit-meddelande."
 },
-
-
-
-
+{
+  "gitcommand": "git log --oneline",
+"beskrivning": "Används för att visa  commit-historiken i en kort och sammanfattad form. Varje commit visas på en enskild rad med en kort version av commit-hashen och commit-meddelandet."
+},
 
 
 
