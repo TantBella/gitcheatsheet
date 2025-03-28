@@ -168,6 +168,10 @@
         "gitcommand": "git push",
         "beskrivning":  "Används för att skicka dina lokala ändringar till fjärr-repositoriet."
     },
+    {
+        "gitcommand": "git push --force",
+        "beskrivning": "Används för att tvinga en push till fjärr-repositoriet, även om det skulle skriva över ändringar i fjärr-repositoriet."
+    },
 
 
 
