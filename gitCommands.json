@@ -307,8 +307,8 @@
 {"gitcommand": "git checkout -- .","beskrivning": "Återställer alla ändrade filer i arbetskatalogen till sitt senaste commit-läge."},
 {"gitcommand": "git diff --name-only","beskrivning": "Visar endast namnen på filer som har ändringar mellan commits eller i arbetskatalogen."},
 {"gitcommand": "git cherry -v","beskrivning": "Visar vilka commits som finns i den aktuella grenen men saknas i en annan."},
-{"gitcommand": "git apply <patchfile>","beskrivning": "Applicerar en patch-fil för att införa specifika ändringar i koden."}
-
+{"gitcommand": "git apply <patchfile>","beskrivning": "Applicerar en patch-fil för att införa specifika ändringar i koden."},
+{"gitcommand": "git commit --dry-run","beskrivning": "Simulerar en commit för att visa vilka filer som skulle inkluderas utan att faktiskt commit:a."}
 
 
 
