@@ -184,6 +184,10 @@
         "gitcommand": "git reflog",
         "beskrivning":  "Visar en historik över alla referenser som pekar på olika versioner i git. Användbart för att hitta borttappade commits."
     },
+    {
+        "gitcommand":  "git reflog expire --expire=now --all",
+        "beskrivning":  "Används för att ta bort gamla referenser som inte längre är användbara."
+    },
 
 
 
