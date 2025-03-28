@@ -224,10 +224,4 @@
 
 
 {"gitcommand": " git reset --hard","beskrivning": "återställer till den senaste commiten"}
-
-
-
-
-
-
-
+{"gitcommand": " git reset [file]","beskrivning": "tar bort en fil från listan över ändringar som är redo att committas, men behåller ändringarna, det är som att säga inte redo än för just den filen "}
