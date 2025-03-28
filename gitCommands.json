@@ -81,10 +81,10 @@
   "gitcommand": "git commit -v",
 "beskrivning": "Används för att skapa en commit med en mer detaljerad vy av ändringarna."
 },
-
-
-
-
+{
+  "gitcommand": "git config --global user.name",
+"beskrivning": "Används för att ställa in eller visa det globala användarnamnet i Git."
+},
 
 
 
