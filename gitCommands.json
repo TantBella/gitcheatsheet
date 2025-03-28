@@ -89,10 +89,10 @@
   "gitcommand": "git config --global user.email",
 "beskrivning": "Används för att ställa in eller visa den globala e-postadressen som används för Git-commits."
 },
-
-
-
-
+{
+  "gitcommand": "git diff",
+"beskrivning": "Används för att visa skillnader mellan olika versioner av filer i ett Git-repo."
+},
 
 
 
