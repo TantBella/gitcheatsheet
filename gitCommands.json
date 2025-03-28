@@ -233,3 +233,4 @@
 {"gitcommand": "git stash apply","beskrivning": " tar fram de ändringar du tidigare sparat undan med git stash"}
 {"gitcommand": " git stash list","beskrivning": "visar en lista över alla sparade ändringar du lagt undan med git stash"}
 {"gitcommand": "git stash pop","beskrivning": "tar fram de senaste sparade ändringarna från git stash och tar bort dem från listan."}
+{"gitcommand": " git status","beskrivning": "Det berättar vilka filer som har ändrats, vilka som är redo att committas, och vilka som inte spåras.Visar ditt git status"}
