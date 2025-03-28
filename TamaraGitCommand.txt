@@ -1,0 +1,15 @@
+1.  git add
+2.  git archive --format=zip --output=archive.zip <branch>
+3.  git bisect bad
+4.  git bisect good <commit>
+5.  git bisect start
+6.  git blame <file>
+7.  git branch
+8.  git branch -D <branch>
+9.  git branch -d <branch>
+10. git checkout
+11. git checkout -b <newbranch>
+12. git cherry-pick <commit>
+13. git clean -f
+14. git clone (url)
+15. git commit -m "message"
