@@ -12,8 +12,8 @@
 {"gitcommand": "git bisect good <commit>",
 "beskrivning": "Märker en commit som good under felsökning. Används vid buggsökning."},
 
-
-
+{"gitcommand": "git bisect start",
+"beskrivning": "Startar en bisect-session. Används vid felsökning för att hitta en bugg."},
 
 
 
