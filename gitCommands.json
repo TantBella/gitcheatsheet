@@ -309,8 +309,8 @@
 {"gitcommand": "git cherry -v","beskrivning": "Visar vilka commits som finns i den aktuella grenen men saknas i en annan."},
 {"gitcommand": "git apply <patchfile>","beskrivning": "Applicerar en patch-fil för att införa specifika ändringar i koden."},
 {"gitcommand": "git commit --dry-run","beskrivning": "Simulerar en commit för att visa vilka filer som skulle inkluderas utan att faktiskt commit:a."},
-{"gitcommand": "git grep \"text_to_find\"","beskrivning": "Söker efter en specifik textsträng i Git-versionerade filer. (Skrivs utan bakstreck(\\) som endast är för JSON formateringen)."}
-
+{"gitcommand": "git grep \"text_to_find\"","beskrivning": "Söker efter en specifik textsträng i Git-versionerade filer. (Skrivs utan bakstreck(\\) som endast är för JSON formateringen)."},
+{"gitcommand": "git checkout HEAD -- <file>","beskrivning": "Återställer en specifik fil till dess senaste commit-läge."}
 
 
 
