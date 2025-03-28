@@ -1,78 +1,79 @@
-[{"Rad1": "Tamara"},
+[
+{
+  "gitcommand": "git add",
+"beskrivning": "Lägger till ändringar för commit. Används innan git commit. "
+},
 
-{"gitcommand": "git add",
-"beskrivning": "Lägger till ändringar för commit. Används innan git commit. "},
+{
+  "gitcommand": "git archive --format=zip --output=archive.zip <branch> ",
+"beskrivning": "Skapar ett zip-arkiv av en branch. Används för att spara eller dela en branch." 
+},
 
-{"gitcommand": "git archive --format=zip --output=archive.zip <branch> ",
-"beskrivning": "Skapar ett zip-arkiv av en branch. Används för att spara eller dela en branch." },
+{
+  "gitcommand": "git bisect bad",
+"beskrivning": "Märker en commit som bad under felsökning. Används vid buggsökning."
+},
 
-{"gitcommand": "git bisect bad",
-"beskrivning": "Märker en commit som bad under felsökning. Används vid buggsökning."},
+{
+  "gitcommand": "git bisect good <commit>",
+"beskrivning": "Märker en commit som good under felsökning. Används vid buggsökning."
+},
 
-{"gitcommand": "git bisect good <commit>",
-"beskrivning": "Märker en commit som good under felsökning. Används vid buggsökning."},
+{
+  "gitcommand": "git bisect start",
+"beskrivning": "Startar en bisect-session. Används vid felsökning för att hitta en bugg."
+},
 
-{"gitcommand": "git bisect start",
-"beskrivning": "Startar en bisect-session. Används vid felsökning för att hitta en bugg."},
+{
+  "gitcommand": "git blame <file>",
+"beskrivning": "Visar vem som ändrat varje rad i en fil. Används för att spåra ändringar."
+},
 
-{"gitcommand": "git blame <file>",
-"beskrivning": "Visar vem som ändrat varje rad i en fil. Används för att spåra ändringar."},
+{
+  "gitcommand": "git branch",
+"beskrivning": "Visar alla lokala branches. Används för att lista branches."
+},
 
-{"gitcommand": "git branch",
-"beskrivning": "Visar alla lokala branches. Används för att lista branches."},
+{
+  "gitcommand":"git branch -D <branch>",
+"beskrivning": "Tar bort en branch. Används för att ta bort en oönskad branch."
+},
 
-{"gitcommand":"git branch -D <branch>",
-"beskrivning": "Tar bort en branch. Används för att ta bort en oönskad branch."},
+{
+  "gitcommand": "git branch -d <branch>",
+"beskrivning": "Tar bort en sammanslagen branch. Används för att rensa gamla branches."
+},
 
-{"gitcommand": "git branch -d <branch>",
-"beskrivning": "Tar bort en sammanslagen branch. Används för att rensa gamla branches."},
+{
+  "gitcommand": "git checkout",
+"beskrivning": "Byter branch eller återställer filer. Används för att växla mellan branches."
+},
 
-{"gitcommand": "git checkout",
-"beskrivning": "Byter branch eller återställer filer. Används för att växla mellan branches."},
+{
+  "gitcommand": "git checkout -b <newbranch>",
+"beskrivning": "Skapar och byter till en ny branch. Används för att starta en ny arbetsgren."
+},
 
-{"gitcommand": "git checkout -b <newbranch>",
-"beskrivning": "Skapar och byter till en ny branch. Används för att starta en ny arbetsgren."},
+{
+  "gitcommand": "git cherry-pick <commit>",
+"beskrivning": "Tillämpa en commit från en annan branch. Används för att ta med specifika ändringar."
+},
 
-{"gitcommand": "git cherry-pick <commit>",
-"beskrivning": "Tillämpa en commit från en annan branch. Används för att ta med specifika ändringar."},
+{
+  "gitcommand": "git clean -f",
+"beskrivning": "Tar bort oanvända filer. Används för att rensa arbetskatalogen."
+},
 
-{"gitcommand": "git clean -f",
-"beskrivning": "Tar bort oanvända filer. Används för att rensa arbetskatalogen."},
+{
+  "gitcommand": "git clone (url)",
+"beskrivning": "Skapar en lokal kopia av ett repository. Används för att ladda ner ett repo."
+},
 
-{"gitcommand": "git clone (url)",
-"beskrivning": "Skapar en lokal kopia av ett repository. Används för att ladda ner ett repo."},
+{
+  "gitcommand": "git commit -m message",
+"beskrivning": "Sparar ändringar med ett meddelande. Används för att registrera ändringar."
+},
 
-{"gitcommand": "git commit -m message",
-"beskrivning": "Sparar ändringar med ett meddelande. Används för att registrera ändringar."},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{"Rad75": "Bella"},
 {
   "gitcommand": "git commit --amend",
 "beskrivning": "Används för att ändra den senaste committen. Undvik att använda detta om du redan har pushat committen, eftersom det kan skapa problem med versionshistoriken."
@@ -134,20 +135,6 @@
 "beskrivning": "Används för att avbryta en pågående merge och återställa din arbetskopia till det tillstånd den var i innan merge-kommandot kördes. Detta är användbart om du stöter på konflikter under merge-processen och inte vill fortsätta merge, utan istället återgå till den tidigare statusen."
 },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-{"Rad150": "Solin"},
     {
         "gitcommand": "git merge --no-ff <branch>",
         "beskrivning": "Används för att slå samman en annan branch till den aktuella utan att skapa en extra merge commit."
@@ -208,172 +195,124 @@
         "gitcommand":  "git reset <file>",
         "beskrivning": "Ångrar ändringar i en specifik fil genom att återställa den till det senaste commitade tillståndet."
     },
-    
-{"Rad225": "Viola"},
-
-
-
-{"gitcommand": " git reset --hard","beskrivning": "återställer till den senaste commiten"},
-{"gitcommand": " git reset [file]","beskrivning": "tar bort en fil från listan över ändringar som är redo att committas, men behåller ändringarna, det är som att säga inte redo än för just den filen "},
-{"gitcommand": "git revert [commit]","beskrivning": "skapa en ny commit som tar bort ändringarna från en specifik tidigare commit, utan att ändra historiken"},
-{"gitcommand": "git rm <file>","beskrivning": "tar bort en fil både från Git och din dator"},
-{"gitcommand": " git shortlog","beskrivning": "lista över commits och visar dem sorterade per person som har gjort dem"},
-{"gitcommand": "git show <commit>","beskrivning": "visar detaljer om en specifik commit som vad som ändrats vem som gjort det och när"},
-{"gitcommand": " git stash","beskrivning": "sparar undan dina ändringar tillfälligt"},
-{"gitcommand": "git stash apply","beskrivning": " tar fram de ändringar du tidigare sparat undan med git stash"},
-{"gitcommand": " git stash list","beskrivning": "visar en lista över alla sparade ändringar du lagt undan med git stash"},
-{"gitcommand": "git stash pop","beskrivning": "tar fram de senaste sparade ändringarna från git stash och tar bort dem från listan."},
-{"gitcommand": " git status","beskrivning": "Det berättar vilka filer som har ändrats, vilka som är redo att committas, och vilka som inte spåras.Visar ditt git status"},
-{"gitcommand": "git submodule add <repo_url> <path>","beskrivning": "används för att lägga till ett annat Git-repo som en submodul i ditt projekt"},
-{"gitcommand": "git submodule update --init","beskrivning": "fixar så att submodulerna laddas ner och blir redo att användas"},
-{"gitcommand": " git tag <tagname>","beskrivning": " låter dig namnge en specifik punkt i historiken, som att sätta en märkning på en viktig commit"},
-{"gitcommand": "git tag -a v1.0 -m version 1.0 release","beskrivning": "kapar en tagg med namnet v1.0 och lägger till ett meddelande som beskriver den. Som att skriva en liten anteckning för en specifik commit"},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- {"Rad300": "Iste"},
-
-{"gitcommand": "git whatchanged","beskrivning": "Visar historiken av ändringar i projektet, liknande git log men med fler detaljer."},
-{"gitcommand": "git describe --tags","beskrivning": "Visar den senaste taggen som beskriver den aktuella committen."},
-{"gitcommand": "git reset --soft HEAD~1","beskrivning": "Ångrar den senaste committen men behåller ändringarna i staging-branchen."},
-{"gitcommand": "git rebase --interactive HEAD~3","beskrivning": "Gör en interaktiv rebase på de senaste tre committerna för att ändra, slå ihop eller ta bort dem."},
-{"gitcommand": "git push origin --delete <branch>","beskrivning": "Tar bort en gren från fjärrlagringen (GitHub, GitLab, etc.)."},
-{"gitcommand": "git checkout -- .","beskrivning": "Återställer alla ändrade filer i arbetskatalogen till sitt senaste commit-läge."},
-{"gitcommand": "git diff --name-only","beskrivning": "Visar endast namnen på filer som har ändringar mellan commits eller i arbetskatalogen."},
-{"gitcommand": "git cherry -v","beskrivning": "Visar vilka commits som finns i den aktuella grenen men saknas i en annan."},
-{"gitcommand": "git apply <patchfile>","beskrivning": "Applicerar en patch-fil för att införa specifika ändringar i koden."},
-{"gitcommand": "git commit --dry-run","beskrivning": "Simulerar en commit för att visa vilka filer som skulle inkluderas utan att faktiskt commit:a."},
-{"gitcommand": "git grep \"text_to_find\"","beskrivning": "Söker efter en specifik textsträng i Git-versionerade filer. (Skrivs utan bakstreck(\\) som endast är för JSON formateringen)."},
-{"gitcommand": "git checkout HEAD -- <file>","beskrivning": "Återställer en specifik fil till dess senaste commit-läge."},
-{"gitcommand": "git merge --squash <branch>","beskrivning": "Slår ihop en gren men gör ändringarna till en enda commit istället för flera."},
-{"gitcommand": "git commit --fixup <commit>","beskrivning": "Skapar en fixup-commit kopplad till en tidigare commit för att kunna användas vid interaktiv rebase."},
-{"gitcommand": "git commit --squash <commit>","beskrivning": "Kombinerar ändringar från en commit med en tidigare commit vid nästa rebase."}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- 
-
-
+{
+  "gitcommand": " git reset --hard",
+  "beskrivning": "återställer till den senaste commiten"
+},
+{
+  "gitcommand": " git reset [file]",
+  "beskrivning": "tar bort en fil från listan över ändringar som är redo att committas, men behåller ändringarna, det är som att säga inte redo än för just den filen "
+},
+{
+  "gitcommand": "git revert [commit]",
+  "beskrivning": "skapa en ny commit som tar bort ändringarna från en specifik tidigare commit, utan att ändra historiken"
+},
+{
+  "gitcommand": "git rm <file>",
+  "beskrivning": "tar bort en fil både från Git och din dator"
+},
+{
+  "gitcommand": " git shortlog",
+  "beskrivning": "lista över commits och visar dem sorterade per person som har gjort dem"
+},
+{
+  "gitcommand": "git show <commit>",
+  "beskrivning": "visar detaljer om en specifik commit som vad som ändrats vem som gjort det och när"
+},
+{
+  "gitcommand": " git stash",
+  "beskrivning": "sparar undan dina ändringar tillfälligt"
+},
+{
+  "gitcommand": "git stash apply",
+  "beskrivning": " tar fram de ändringar du tidigare sparat undan med git stash"
+},
+{
+  "gitcommand": " git stash list",
+  "beskrivning": "visar en lista över alla sparade ändringar du lagt undan med git stash"
+},
+{
+  "gitcommand": "git stash pop",
+  "beskrivning": "tar fram de senaste sparade ändringarna från git stash och tar bort dem från listan."
+},
+{
+  "gitcommand": " git status",
+  "beskrivning": "Det berättar vilka filer som har ändrats, vilka som är redo att committas, och vilka som inte spåras.Visar ditt git status"
+},
+{
+  "gitcommand": "git submodule add <repo_url> <path>",
+  "beskrivning": "används för att lägga till ett annat Git-repo som en submodul i ditt projekt"
+},
+{
+  "gitcommand": "git submodule update --init",
+  "beskrivning": "fixar så att submodulerna laddas ner och blir redo att användas"
+},
+{
+  "gitcommand": " git tag <tagname>",
+  "beskrivning": " låter dig namnge en specifik punkt i historiken, som att sätta en märkning på en viktig commit"
+},
+{
+  "gitcommand": "git tag -a v1.0 -m version 1.0 release",
+  "beskrivning": "kapar en tagg med namnet v1.0 och lägger till ett meddelande som beskriver den. Som att skriva en liten anteckning för en specifik commit"
+},
+{
+  "gitcommand": "git whatchanged",
+  "beskrivning": "Visar historiken av ändringar i projektet, liknande git log men med fler detaljer."
+},
+{
+  "gitcommand": "git describe --tags",
+  "beskrivning": "Visar den senaste taggen som beskriver den aktuella committen."
+},
+{
+  "gitcommand": "git reset --soft HEAD~1",
+  "beskrivning": "Ångrar den senaste committen men behåller ändringarna i staging-branchen."
+},
+{
+  "gitcommand": "git rebase --interactive HEAD~3",
+  "beskrivning": "Gör en interaktiv rebase på de senaste tre committerna för att ändra, slå ihop eller ta bort dem."
+},
+{
+  "gitcommand": "git push origin --delete <branch>",
+  "beskrivning": "Tar bort en gren från fjärrlagringen (GitHub, GitLab, etc.)."
+},
+{
+  "gitcommand": "git checkout -- .",
+  "beskrivning": "Återställer alla ändrade filer i arbetskatalogen till sitt senaste commit-läge."
+},
+{
+  "gitcommand": "git diff --name-only",
+  "beskrivning": "Visar endast namnen på filer som har ändringar mellan commits eller i arbetskatalogen."
+},
+{
+  "gitcommand": "git cherry -v",
+  "beskrivning": "Visar vilka commits som finns i den aktuella grenen men saknas i en annan."
+},
+{
+  "gitcommand": "git apply <patchfile>",
+  "beskrivning": "Applicerar en patch-fil för att införa specifika ändringar i koden."
+},
+{
+  "gitcommand": "git commit --dry-run",
+  "beskrivning": "Simulerar en commit för att visa vilka filer som skulle inkluderas utan att faktiskt commit:a."
+},
+{
+  "gitcommand": "git grep \"text_to_find\"",
+  "beskrivning": "Söker efter en specifik textsträng i Git-versionerade filer. (Skrivs utan bakstreck(\\) som endast är för JSON formateringen)."
+},
+{
+  "gitcommand": "git checkout HEAD -- <file>",
+  "beskrivning": "Återställer en specifik fil till dess senaste commit-läge."
+},
+{
+  "gitcommand": "git merge --squash <branch>",
+  "beskrivning": "Slår ihop en gren men gör ändringarna till en enda commit istället för flera."
+},
+{
+  "gitcommand": "git commit --fixup <commit>",
+  "beskrivning": "Skapar en fixup-commit kopplad till en tidigare commit för att kunna användas vid interaktiv rebase."
+},
+{
+  "gitcommand": "git commit --squash <commit>",
+  "beskrivning": "Kombinerar ändringar från en commit med en tidigare commit vid nästa rebase."
+}
 ]
