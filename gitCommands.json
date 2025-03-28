@@ -148,80 +148,67 @@
 
 
 {"Rad150": "Solin"},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    {
+        "gitcommand": "git merge --no-ff <branch>",
+        "beskrivning": "Används för att slå samman en annan branch till den aktuella utan att skapa en extra merge commit."
+    },
+    {
+        "gitcommand": "git mv <oldfile> <new_file>",
+        "beskrivning": "Används för att byta namn på en fil eller flytta den till en ny plats i git-repositoriet."
+    },
+    {
+        "gitcommand": "git pull",
+        "beskrivning": "Används för att hämta och slå samman de senaste ändringarna från fjärr-repositoriet (origin) till din aktuella branch."
+    },
+    {
+        "gitcommand": "git pull --rebase",
+        "beskrivning": "Används för att hämta ändringar från fjärr-repositoriet och istället för att göra en merge så läggs dina lokala commits ovanpå de senaste fjärr-kommitteterna."
+    },
+    {
+        "gitcommand": "git push",
+        "beskrivning":  "Används för att skicka dina lokala ändringar till fjärr-repositoriet."
+    },
+    {
+        "gitcommand": "git push --force",
+        "beskrivning": "Används för att tvinga en push till fjärr-repositoriet, även om det skulle skriva över ändringar i fjärr-repositoriet."
+    },
+    {
+        "gitcommand": "git push --set-upstream origin <branch>",
+        "beskrivning": "Används för att sätta en fjärr-branch som upstream för den lokala branchen."
+    },
+    {
+        "gitcommand": "git rebase <branch>",
+        "beskrivning": "Används för att applicera dina ändringar ovanpå de senaste ändringarna från en annan branch. Används ofta för att hålla en ren historik."
+    },
+    {
+        "gitcommand": "git reflog",
+        "beskrivning":  "Visar en historik över alla referenser som pekar på olika versioner i git. Användbart för att hitta borttappade commits."
+    },
+    {
+        "gitcommand":  "git reflog expire --expire=now --all",
+        "beskrivning":  "Används för att ta bort gamla referenser som inte längre är användbara."
+    },
+    {
+        "gitcommand": "git remote -v",
+        "beskrivning":  "Visar alla fjärr-repositorier (remote repositories) som är kopplade till ditt lokala git-repository."
+    },
+    {
+        "gitcommand": "git remote remove <name>",
+        "beskrivning":  "Används för att ta bort en fjärr-repository (remote) från din lokala git-konfiguration."
+    },
+    {
+        "gitcommand": "git remote set-url origin <new_repo>",
+        "beskrivning":  "Används för att ändra URL:en för fjärr-repositoryt (remote) i ditt git-repository."
+    },
+    {
+        "gitcommand": "git remote show origin",
+        "beskrivning":  "Visar information om fjärr-repositoryt (origin), inklusive de branches som finns och deras status."
+    },
+    {
+        "gitcommand":  "git reset <file>",
+        "beskrivning": "Ångrar ändringar i en specifik fil genom att återställa den till det senaste commitade tillståndet."
+    },
+    
 {"Rad225": "Viola"},
 
 
