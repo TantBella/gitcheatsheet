@@ -33,8 +33,8 @@
 {"gitcommand": "git checkout -b <newbranch>",
 "beskrivning": "Skapar och byter till en ny branch. Används för att starta en ny arbetsgren."},
 
-
-
+{"gitcommand": "git cherry-pick <commit>",
+"beskrivning": "Tillämpa en commit från en annan branch. Används för att ta med specifika ändringar."},
 
 
 
