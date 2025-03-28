@@ -176,6 +176,10 @@
         "gitcommand": "git push --set-upstream origin <branch>",
         "beskrivning": "Används för att sätta en fjärr-branch som upstream för den lokala branchen."
     },
+    {
+        "gitcommand": "git rebase <branch>",
+        "beskrivning": "Används för att applicera dina ändringar ovanpå de senaste ändringarna från en annan branch. Används ofta för att hålla en ren historik."
+    },
 
 
 
