@@ -21,8 +21,8 @@
 {"gitcommand": "git branch",
 "beskrivning": "Visar alla lokala branches. Används för att lista branches."},
 
-
-
+{"gitcommand":"git branch -D <branch>",
+"beskrivning": "Tar bort en branch. Används för att ta bort en oönskad branch."},
 
 
 
