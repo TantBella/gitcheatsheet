@@ -196,6 +196,10 @@
         "gitcommand": "git remote remove <name>",
         "beskrivning":  "Används för att ta bort en fjärr-repository (remote) från din lokala git-konfiguration."
     },
+    {
+        "gitcommand": "git remote set-url origin <new_repo>",
+        "beskrivning":  "Används för att ändra URL:en för fjärr-repositoryt (remote) i ditt git-repository."
+    },
 
 
 
