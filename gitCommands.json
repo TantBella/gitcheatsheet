@@ -148,6 +148,12 @@
 
 
 {"Rad150": "Solin"},
+    {
+        "gitcommand": "git merge --no-ff <branch>",
+        "beskrivning": "Används för att slå samman en annan branch till den aktuella utan att skapa en extra merge commit."
+    },
+
+
 
 
 
