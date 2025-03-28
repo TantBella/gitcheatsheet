@@ -105,10 +105,10 @@
   "gitcommand": "git fetch",
 "beskrivning": "Används för att hämta de senaste ändringarna från en fjärrrepo (t.ex. GitHub) men uppdaterar inte din lokala arbetskopia automatiskt."
 },
-
-
-
-
+{
+  "gitcommand": "git fetch --prune",
+"beskrivning": "Används för att hämta  uppdateringar från fjärr-repot och rensar bort lokala referenser till brancher som har raderats från fjärr-repot."
+},
 
 
 
