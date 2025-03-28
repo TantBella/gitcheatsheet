@@ -101,13 +101,10 @@
   "gitcommand": "git diff <branch1> <branch2>",
 "beskrivning": "Används för att jämföra skillnaderna mellan två brancher i ett Git-repo."
 },
-
-
-
-
-
-
-
+{
+  "gitcommand": "git fetch",
+"beskrivning": "Används för att hämta de senaste ändringarna från en fjärrrepo (t.ex. GitHub) men uppdaterar inte din lokala arbetskopia automatiskt."
+},
 
 
 
