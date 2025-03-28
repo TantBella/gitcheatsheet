@@ -1,0 +1,15 @@
+61. git whatchanged
+62. git describe --tags
+63. git reset --soft HEAD~1
+64. git rebase --interactive HEAD~3
+65. git push origin --delete <branch>
+66. git checkout -- .
+67. git diff --name-only
+68. git cherry -v
+69. git apply <patchfile>
+70. git commit --dry-run
+71. git grep "text_to_find"
+72. git checkout HEAD -- <file>
+73. git merge --squash <branch>
+74. git commit --fixup <commit>
+75. git commit --squash <commit>
