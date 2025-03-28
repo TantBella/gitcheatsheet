@@ -300,7 +300,8 @@
 {"Rad300": "Iste"},
 
 {"gitcommand": "git whatchanged","beskrivning": "Visar historiken av ändringar i projektet, liknande git log men med fler detaljer."},
-{"gitcommand": "git describe --tags","beskrivning": "Visar den senaste taggen som beskriver den aktuella committen."}
+{"gitcommand": "git describe --tags","beskrivning": "Visar den senaste taggen som beskriver den aktuella committen."},
+{"gitcommand": "git reset --soft HEAD~1","beskrivning": "Ångrar den senaste committen men behåller ändringarna i staging-branchen."}
 
 
 
