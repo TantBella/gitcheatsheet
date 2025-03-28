@@ -1,0 +1,16 @@
+My commads:
+31. git merge --no-ff <branch>
+32. git mv <oldfile> <new_file>
+33. git pull
+34. git pull --rebase
+35. git push
+36. git push --force
+37. git push --set-upstream origin <branch>
+38. git rebase <branch>
+39. git reflog
+40. git reflog expire --expire=now --all
+41. git remote -v
+42. git remote remove <name>
+43. git remote set-url origin <new_repo>
+44. git remote show origin
+45. git reset <file>
