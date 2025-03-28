@@ -1,0 +1,81 @@
+Agilt projekt 1:
+
+1.  git add
+2.  git archive --format=zip --output=archive.zip <branch>
+3.  git bisect bad
+4.  git bisect good <commit>
+5.  git bisect start
+6.  git blame <file>
+7.  git branch
+8.  git branch -D <branch>
+9.  git branch -d <branch>
+10. git checkout
+11. git checkout -b <newbranch>
+12. git cherry-pick <commit>
+13. git clean -f
+14. git clone (url)
+15. git commit -m "message"
+--------------------------------------------------
+16. git commit --amend
+17. git commit -v
+18. git config --global user.name
+19. git config --global user.email
+20. git diff
+21. git diff --staged
+22. git diff <branch1> <branch2>
+23. git fetch
+24. git fetch --prune
+25. git gc
+26. git init
+27. git log
+28. git log --oneline
+29. git merge
+30. git merge --abort
+-------------------------------------------------
+31. git merge --no-ff <branch>
+32. git mv <oldfile> <new_file>
+33. git pull
+34. git pull --rebase
+35. git push
+36. git push --force
+37. git push --set-upstream origin <branch>
+38. git rebase <branch>
+39. git reflog
+40. git reflog expire --expire=now --all
+41. git remote -v
+42. git remote remove <name>
+43. git remote set-url origin <new_repo>
+44. git remote show origin
+45. git reset <file>
+---------------------------------------------
+46. git reset --hard
+47. git reset [file]
+48. git revert [commit]
+49. git rm <file>
+50. git shortlog
+51. git show <commit>
+52. git stash
+53. git stash apply
+54. git stash list
+55. git stash pop
+56. git status
+57. git submodule add <repo_url> <path>
+58. git submodule update --init
+59. git tag <tagname>
+60. git tag -a v1.0 -m "version 1.0 release"
+---------------------------------------------
+61. git whatchanged
+62. git describe --tags
+63. git reset --soft HEAD~1
+64. git rebase --interactive HEAD~3
+65. git push origin --delete <branch>
+66. git checkout -- .
+67. git diff --name-only
+68. git cherry -v
+69. git apply <patchfile>
+70. git commit --dry-run
+71. git grep "text_to_find"
+72. git checkout HEAD -- <file>
+73. git merge --squash <branch>
+74. git commit --fixup <commit>
+75. git commit --squash <commit>
