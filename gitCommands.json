@@ -15,8 +15,8 @@
 {"gitcommand": "git bisect start",
 "beskrivning": "Startar en bisect-session. Används vid felsökning för att hitta en bugg."},
 
-
-
+{"gitcommand": "git blame <file>",
+"beskrivning": "Visar vem som ändrat varje rad i en fil. Används för att spåra ändringar."},
 
 
 
