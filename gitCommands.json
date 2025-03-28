@@ -180,6 +180,10 @@
         "gitcommand": "git rebase <branch>",
         "beskrivning": "Används för att applicera dina ändringar ovanpå de senaste ändringarna från en annan branch. Används ofta för att hålla en ren historik."
     },
+    {
+        "gitcommand": "git reflog",
+        "beskrivning":  "Visar en historik över alla referenser som pekar på olika versioner i git. Användbart för att hitta borttappade commits."
+    },
 
 
 
