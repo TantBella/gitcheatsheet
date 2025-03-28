@@ -129,10 +129,10 @@
   "gitcommand": "git merge",
 "beskrivning": "Används för att  slå samman ändringar från en annan branch in i den aktuella branch du jobbar på. Det är en central del av att arbeta med brancher i Git och används för att kombinera arbete som gjorts parallellt på olika brancher."
 },
-
-
-
-
+{
+  "gitcommand": "git merge --abort",
+"beskrivning": "Används för att avbryta en pågående merge och återställa din arbetskopia till det tillstånd den var i innan merge-kommandot kördes. Detta är användbart om du stöter på konflikter under merge-processen och inte vill fortsätta merge, utan istället återgå till den tidigare statusen."
+},
 
 
 
