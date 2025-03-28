@@ -164,6 +164,11 @@
         "gitcommand": "git pull --rebase",
         "beskrivning": "Används för att hämta ändringar från fjärr-repositoriet och istället för att göra en merge så läggs dina lokala commits ovanpå de senaste fjärr-kommitteterna."
     },
+    {
+        "gitcommand": "git push",
+        "beskrivning":  "Används för att skicka dina lokala ändringar till fjärr-repositoriet."
+    },
+
 
 
 
