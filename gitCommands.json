@@ -3,8 +3,8 @@
 {"gitcommand": "git add",
 "beskrivning": "Lägger till ändringar för commit. Används innan git commit. "},
 
-
-
+{"gitcommand": "git archive --format=zip --output=archive.zip <branch> ",
+"beskrivning": "Skapar ett zip-arkiv av en branch. Används för att spara eller dela en branch." },
 
 
 
