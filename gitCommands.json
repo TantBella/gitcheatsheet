@@ -97,7 +97,10 @@
   "gitcommand": "git diff --staged",
 "beskrivning": "Används för att visa skillnader mellan de stageade ändringarna och den senaste committen."
 },
-
+{
+  "gitcommand": "git diff <branch1> <branch2>",
+"beskrivning": "Används för att jämföra skillnaderna mellan två brancher i ett Git-repo."
+},
 
 
 
