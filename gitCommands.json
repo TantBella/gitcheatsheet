@@ -9,8 +9,8 @@
 {"gitcommand": "git bisect bad",
 "beskrivning": "Märker en commit som bad under felsökning. Används vid buggsökning."},
 
-
-
+{"gitcommand": "git bisect good <commit>",
+"beskrivning": "Märker en commit som good under felsökning. Används vid buggsökning."},
 
 
 
