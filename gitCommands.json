@@ -230,3 +230,4 @@
 {"gitcommand": " git shortlog","beskrivning": "lista över commits och visar dem sorterade per person som har gjort dem"}
 {"gitcommand": "git show <commit>","beskrivning": "visar detaljer om en specifik commit som vad som ändrats vem som gjort det och när"}
 {"gitcommand": " git stash","beskrivning": "sparar undan dina ändringar tillfälligt"}
+{"gitcommand": "git stash apply","beskrivning": " tar fram de ändringar du tidigare sparat undan med git stash"}
