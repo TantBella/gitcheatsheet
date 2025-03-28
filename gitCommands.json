@@ -304,9 +304,8 @@
 {"gitcommand": "git reset --soft HEAD~1","beskrivning": "Ångrar den senaste committen men behåller ändringarna i staging-branchen."},
 {"gitcommand": "git rebase --interactive HEAD~3","beskrivning": "Gör en interaktiv rebase på de senaste tre committerna för att ändra, slå ihop eller ta bort dem."},
 {"gitcommand": "git push origin --delete <branch>","beskrivning": "Tar bort en gren från fjärrlagringen (GitHub, GitLab, etc.)."},
-{"gitcommand": "git checkout -- .","beskrivning": "Återställer alla ändrade filer i arbetskatalogen till sitt senaste commit-läge."}
-
-
+{"gitcommand": "git checkout -- .","beskrivning": "Återställer alla ändrade filer i arbetskatalogen till sitt senaste commit-läge."},
+{"gitcommand": "git diff --name-only","beskrivning": "Visar endast namnen på filer som har ändringar mellan commits eller i arbetskatalogen."}
 
 
 
