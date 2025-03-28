@@ -30,8 +30,8 @@
 {"gitcommand": "git checkout",
 "beskrivning": "Byter branch eller återställer filer. Används för att växla mellan branches."},
 
-
-
+{"gitcommand": "git checkout -b <newbranch>",
+"beskrivning": "Skapar och byter till en ny branch. Används för att starta en ny arbetsgren."},
 
 
 
