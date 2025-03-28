@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -13,21 +14,54 @@
 
 
 
+=======
+[{"Rad1": "Tamara"},
 
+{"gitcommand": "git add",
+"beskrivning": "Lägger till ändringar för commit. Används innan git commit. "},
 
+{"gitcommand": "git archive --format=zip --output=archive.zip <branch> ",
+"beskrivning": "Skapar ett zip-arkiv av en branch. Används för att spara eller dela en branch." },
 
+{"gitcommand": "git bisect bad",
+"beskrivning": "Märker en commit som bad under felsökning. Används vid buggsökning."},
 
+{"gitcommand": "git bisect good <commit>",
+"beskrivning": "Märker en commit som good under felsökning. Används vid buggsökning."},
 
+{"gitcommand": "git bisect start",
+"beskrivning": "Startar en bisect-session. Används vid felsökning för att hitta en bugg."},
 
+{"gitcommand": "git blame <file>",
+"beskrivning": "Visar vem som ändrat varje rad i en fil. Används för att spåra ändringar."},
 
+{"gitcommand": "git branch",
+"beskrivning": "Visar alla lokala branches. Används för att lista branches."},
 
+{"gitcommand":"git branch -D <branch>",
+"beskrivning": "Tar bort en branch. Används för att ta bort en oönskad branch."},
 
+{"gitcommand": "git branch -d <branch>",
+"beskrivning": "Tar bort en sammanslagen branch. Används för att rensa gamla branches."},
 
+{"gitcommand": "git checkout",
+"beskrivning": "Byter branch eller återställer filer. Används för att växla mellan branches."},
 
+{"gitcommand": "git checkout -b <newbranch>",
+"beskrivning": "Skapar och byter till en ny branch. Används för att starta en ny arbetsgren."},
 
+{"gitcommand": "git cherry-pick <commit>",
+"beskrivning": "Tillämpa en commit från en annan branch. Används för att ta med specifika ändringar."},
 
+{"gitcommand": "git clean -f",
+"beskrivning": "Tar bort oanvända filer. Används för att rensa arbetskatalogen."},
 
+{"gitcommand": "git clone (url)",
+"beskrivning": "Skapar en lokal kopia av ett repository. Används för att ladda ner ett repo."},
 
+{"gitcommand": "git commit -m message",
+"beskrivning": "Sparar ändringar med ett meddelande. Används för att registrera ändringar."},
+>>>>>>> 07b7ce99ef4390252a03ba7804b484e1c10fb68e
 
 
 
@@ -56,6 +90,77 @@
 
 
 
+<<<<<<< HEAD
+=======
+{"Rad75": "Bella"},
+{
+  "gitcommand": "git commit --amend",
+"beskrivning": "Används för att ändra den senaste committen. Undvik att använda detta om du redan har pushat committen, eftersom det kan skapa problem med versionshistoriken."
+},
+{
+  "gitcommand": "git commit -v",
+"beskrivning": "Används för att skapa en commit med en mer detaljerad vy av ändringarna."
+},
+{
+  "gitcommand": "git config --global user.name",
+"beskrivning": "Används för att ställa in eller visa det globala användarnamnet i Git."
+},
+{
+  "gitcommand": "git config --global user.email",
+"beskrivning": "Används för att ställa in eller visa den globala e-postadressen som används för Git-commits."
+},
+{
+  "gitcommand": "git diff",
+"beskrivning": "Används för att visa skillnader mellan olika versioner av filer i ett Git-repo."
+},
+{
+  "gitcommand": "git diff --staged",
+"beskrivning": "Används för att visa skillnader mellan de stageade ändringarna och den senaste committen."
+},
+{
+  "gitcommand": "git diff <branch1> <branch2>",
+"beskrivning": "Används för att jämföra skillnaderna mellan två brancher i ett Git-repo."
+},
+{
+  "gitcommand": "git fetch",
+"beskrivning": "Används för att hämta de senaste ändringarna från en fjärrrepo (t.ex. GitHub) men uppdaterar inte din lokala arbetskopia automatiskt."
+},
+{
+  "gitcommand": "git fetch --prune",
+"beskrivning": "Används för att hämta  uppdateringar från fjärr-repot och rensar bort lokala referenser till brancher som har raderats från fjärr-repot."
+},
+{
+  "gitcommand": "git gc",
+"beskrivning": "Används för att optimera ditt Git-repo genom att ta bort oanvända eller onödiga filer och referenser. Det gör att ditt repo kan bli mer effektivt och mindre i storlek."
+},
+{
+  "gitcommand": "git init",
+"beskrivning": "Används  för att skapa ett nytt Git-repository i en katalog. Det omvandlar en vanlig mapp till ett Git-repository, vilket gör att du kan börja spåra versioner och hantera filändringar med Git."
+},
+{
+  "gitcommand": "git log",
+"beskrivning": "Används för att visa historiken av commits i ett Git-repository. Det visar en lista över de senaste commits, inklusive deras hash-id, författare, datum och commit-meddelande."
+},
+{
+  "gitcommand": "git log --oneline",
+"beskrivning": "Används för att visa  commit-historiken i en kort och sammanfattad form. Varje commit visas på en enskild rad med en kort version av commit-hashen och commit-meddelandet."
+},
+{
+  "gitcommand": "git merge",
+"beskrivning": "Används för att  slå samman ändringar från en annan branch in i den aktuella branch du jobbar på. Det är en central del av att arbeta med brancher i Git och används för att kombinera arbete som gjorts parallellt på olika brancher."
+},
+{
+  "gitcommand": "git merge --abort",
+"beskrivning": "Används för att avbryta en pågående merge och återställa din arbetskopia till det tillstånd den var i innan merge-kommandot kördes. Detta är användbart om du stöter på konflikter under merge-processen och inte vill fortsätta merge, utan istället återgå till den tidigare statusen."
+},
+>>>>>>> 07b7ce99ef4390252a03ba7804b484e1c10fb68e
+
+
+
+
+
+
+
 
 
 
@@ -63,6 +168,72 @@
 
 
 
+<<<<<<< HEAD
+=======
+{"Rad150": "Solin"},
+    {
+        "gitcommand": "git merge --no-ff <branch>",
+        "beskrivning": "Används för att slå samman en annan branch till den aktuella utan att skapa en extra merge commit."
+    },
+    {
+        "gitcommand": "git mv <oldfile> <new_file>",
+        "beskrivning": "Används för att byta namn på en fil eller flytta den till en ny plats i git-repositoriet."
+    },
+    {
+        "gitcommand": "git pull",
+        "beskrivning": "Används för att hämta och slå samman de senaste ändringarna från fjärr-repositoriet (origin) till din aktuella branch."
+    },
+    {
+        "gitcommand": "git pull --rebase",
+        "beskrivning": "Används för att hämta ändringar från fjärr-repositoriet och istället för att göra en merge så läggs dina lokala commits ovanpå de senaste fjärr-kommitteterna."
+    },
+    {
+        "gitcommand": "git push",
+        "beskrivning":  "Används för att skicka dina lokala ändringar till fjärr-repositoriet."
+    },
+    {
+        "gitcommand": "git push --force",
+        "beskrivning": "Används för att tvinga en push till fjärr-repositoriet, även om det skulle skriva över ändringar i fjärr-repositoriet."
+    },
+    {
+        "gitcommand": "git push --set-upstream origin <branch>",
+        "beskrivning": "Används för att sätta en fjärr-branch som upstream för den lokala branchen."
+    },
+    {
+        "gitcommand": "git rebase <branch>",
+        "beskrivning": "Används för att applicera dina ändringar ovanpå de senaste ändringarna från en annan branch. Används ofta för att hålla en ren historik."
+    },
+    {
+        "gitcommand": "git reflog",
+        "beskrivning":  "Visar en historik över alla referenser som pekar på olika versioner i git. Användbart för att hitta borttappade commits."
+    },
+    {
+        "gitcommand":  "git reflog expire --expire=now --all",
+        "beskrivning":  "Används för att ta bort gamla referenser som inte längre är användbara."
+    },
+    {
+        "gitcommand": "git remote -v",
+        "beskrivning":  "Visar alla fjärr-repositorier (remote repositories) som är kopplade till ditt lokala git-repository."
+    },
+    {
+        "gitcommand": "git remote remove <name>",
+        "beskrivning":  "Används för att ta bort en fjärr-repository (remote) från din lokala git-konfiguration."
+    },
+    {
+        "gitcommand": "git remote set-url origin <new_repo>",
+        "beskrivning":  "Används för att ändra URL:en för fjärr-repositoryt (remote) i ditt git-repository."
+    },
+    {
+        "gitcommand": "git remote show origin",
+        "beskrivning":  "Visar information om fjärr-repositoryt (origin), inklusive de branches som finns och deras status."
+    },
+    {
+        "gitcommand":  "git reset <file>",
+        "beskrivning": "Ångrar ändringar i en specifik fil genom att återställa den till det senaste commitade tillståndet."
+    },
+    
+{"Rad225": "Viola"},
+>>>>>>> 07b7ce99ef4390252a03ba7804b484e1c10fb68e
 
 
 
@@ -137,8 +308,27 @@
 
 
 
+<<<<<<< HEAD
 
+=======
+ {"Rad300": "Iste"},
 
+{"gitcommand": "git whatchanged","beskrivning": "Visar historiken av ändringar i projektet, liknande git log men med fler detaljer."},
+{"gitcommand": "git describe --tags","beskrivning": "Visar den senaste taggen som beskriver den aktuella committen."},
+{"gitcommand": "git reset --soft HEAD~1","beskrivning": "Ångrar den senaste committen men behåller ändringarna i staging-branchen."},
+{"gitcommand": "git rebase --interactive HEAD~3","beskrivning": "Gör en interaktiv rebase på de senaste tre committerna för att ändra, slå ihop eller ta bort dem."},
+{"gitcommand": "git push origin --delete <branch>","beskrivning": "Tar bort en gren från fjärrlagringen (GitHub, GitLab, etc.)."},
+{"gitcommand": "git checkout -- .","beskrivning": "Återställer alla ändrade filer i arbetskatalogen till sitt senaste commit-läge."},
+{"gitcommand": "git diff --name-only","beskrivning": "Visar endast namnen på filer som har ändringar mellan commits eller i arbetskatalogen."},
+{"gitcommand": "git cherry -v","beskrivning": "Visar vilka commits som finns i den aktuella grenen men saknas i en annan."},
+{"gitcommand": "git apply <patchfile>","beskrivning": "Applicerar en patch-fil för att införa specifika ändringar i koden."},
+{"gitcommand": "git commit --dry-run","beskrivning": "Simulerar en commit för att visa vilka filer som skulle inkluderas utan att faktiskt commit:a."},
+{"gitcommand": "git grep \"text_to_find\"","beskrivning": "Söker efter en specifik textsträng i Git-versionerade filer. (Skrivs utan bakstreck(\\) som endast är för JSON formateringen)."},
+{"gitcommand": "git checkout HEAD -- <file>","beskrivning": "Återställer en specifik fil till dess senaste commit-läge."},
+{"gitcommand": "git merge --squash <branch>","beskrivning": "Slår ihop en gren men gör ändringarna till en enda commit istället för flera."},
+{"gitcommand": "git commit --fixup <commit>","beskrivning": "Skapar en fixup-commit kopplad till en tidigare commit för att kunna användas vid interaktiv rebase."},
+{"gitcommand": "git commit --squash <commit>","beskrivning": "Kombinerar ändringar från en commit med en tidigare commit vid nästa rebase."}
+>>>>>>> 07b7ce99ef4390252a03ba7804b484e1c10fb68e
 
 
 
@@ -182,6 +372,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
 
 
 
@@ -238,3 +438,12 @@
 {"gitcommand": "git submodule update --init","beskrivning": "fixar så att submodulerna laddas ner och blir redo att användas"}
 {"gitcommand": " git tag <tagname>","beskrivning": " låter dig namnge en specifik punkt i historiken, som att sätta en märkning på en viktig commit"}
 {"gitcommand": "git tag -a v1.0 -m" "version 1.0 release","beskrivning": "kapar en tagg med namnet v1.0 och lägger till ett meddelande som beskriver den. Som att skriva en liten anteckning för en specifik commit"}
+=======
+ 
+ 
+ 
+ 
+
+
+]
+>>>>>>> 07b7ce99ef4390252a03ba7804b484e1c10fb68e
