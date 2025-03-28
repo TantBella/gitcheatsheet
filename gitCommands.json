@@ -27,8 +27,8 @@
 {"gitcommand": "git branch -d <branch>",
 "beskrivning": "Tar bort en sammanslagen branch. Används för att rensa gamla branches."},
 
-
-
+{"gitcommand": "git checkout",
+"beskrivning": "Byter branch eller återställer filer. Används för att växla mellan branches."},
 
 
 
