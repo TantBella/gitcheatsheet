@@ -305,8 +305,8 @@
 {"gitcommand": "git rebase --interactive HEAD~3","beskrivning": "Gör en interaktiv rebase på de senaste tre committerna för att ändra, slå ihop eller ta bort dem."},
 {"gitcommand": "git push origin --delete <branch>","beskrivning": "Tar bort en gren från fjärrlagringen (GitHub, GitLab, etc.)."},
 {"gitcommand": "git checkout -- .","beskrivning": "Återställer alla ändrade filer i arbetskatalogen till sitt senaste commit-läge."},
-{"gitcommand": "git diff --name-only","beskrivning": "Visar endast namnen på filer som har ändringar mellan commits eller i arbetskatalogen."}
-
+{"gitcommand": "git diff --name-only","beskrivning": "Visar endast namnen på filer som har ändringar mellan commits eller i arbetskatalogen."},
+{"gitcommand": "git cherry -v","beskrivning": "Visar vilka commits som finns i den aktuella grenen men saknas i en annan."}
 
 
 
