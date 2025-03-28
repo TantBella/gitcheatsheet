@@ -73,66 +73,66 @@
 
 
 {"Rad75": "Bella"},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{
+  "gitcommand": "git commit --amend",
+"beskrivning": "Används för att ändra den senaste committen. Undvik att använda detta om du redan har pushat committen, eftersom det kan skapa problem med versionshistoriken."
+},
+{
+  "gitcommand": "git commit -v",
+"beskrivning": "Används för att skapa en commit med en mer detaljerad vy av ändringarna."
+},
+{
+  "gitcommand": "git config --global user.name",
+"beskrivning": "Används för att ställa in eller visa det globala användarnamnet i Git."
+},
+{
+  "gitcommand": "git config --global user.email",
+"beskrivning": "Används för att ställa in eller visa den globala e-postadressen som används för Git-commits."
+},
+{
+  "gitcommand": "git diff",
+"beskrivning": "Används för att visa skillnader mellan olika versioner av filer i ett Git-repo."
+},
+{
+  "gitcommand": "git diff --staged",
+"beskrivning": "Används för att visa skillnader mellan de stageade ändringarna och den senaste committen."
+},
+{
+  "gitcommand": "git diff <branch1> <branch2>",
+"beskrivning": "Används för att jämföra skillnaderna mellan två brancher i ett Git-repo."
+},
+{
+  "gitcommand": "git fetch",
+"beskrivning": "Används för att hämta de senaste ändringarna från en fjärrrepo (t.ex. GitHub) men uppdaterar inte din lokala arbetskopia automatiskt."
+},
+{
+  "gitcommand": "git fetch --prune",
+"beskrivning": "Används för att hämta  uppdateringar från fjärr-repot och rensar bort lokala referenser till brancher som har raderats från fjärr-repot."
+},
+{
+  "gitcommand": "git gc",
+"beskrivning": "Används för att optimera ditt Git-repo genom att ta bort oanvända eller onödiga filer och referenser. Det gör att ditt repo kan bli mer effektivt och mindre i storlek."
+},
+{
+  "gitcommand": "git init",
+"beskrivning": "Används  för att skapa ett nytt Git-repository i en katalog. Det omvandlar en vanlig mapp till ett Git-repository, vilket gör att du kan börja spåra versioner och hantera filändringar med Git."
+},
+{
+  "gitcommand": "git log",
+"beskrivning": "Används för att visa historiken av commits i ett Git-repository. Det visar en lista över de senaste commits, inklusive deras hash-id, författare, datum och commit-meddelande."
+},
+{
+  "gitcommand": "git log --oneline",
+"beskrivning": "Används för att visa  commit-historiken i en kort och sammanfattad form. Varje commit visas på en enskild rad med en kort version av commit-hashen och commit-meddelandet."
+},
+{
+  "gitcommand": "git merge",
+"beskrivning": "Används för att  slå samman ändringar från en annan branch in i den aktuella branch du jobbar på. Det är en central del av att arbeta med brancher i Git och används för att kombinera arbete som gjorts parallellt på olika brancher."
+},
+{
+  "gitcommand": "git merge --abort",
+"beskrivning": "Används för att avbryta en pågående merge och återställa din arbetskopia till det tillstånd den var i innan merge-kommandot kördes. Detta är användbart om du stöter på konflikter under merge-processen och inte vill fortsätta merge, utan istället återgå till den tidigare statusen."
+},
 
 
 

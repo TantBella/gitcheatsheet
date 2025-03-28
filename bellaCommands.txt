@@ -1,0 +1,15 @@
+16. git commit --amend
+17. git commit -v
+18. git config --global user.name
+19. git config --global user.email
+20. git diff
+21. git diff --staged
+22. git diff <branch1> <branch2>
+23. git fetch
+24. git fetch --prune
+25. git gc
+26. git init
+27. git log
+28. git log --oneline
+29. git merge
+30. git merge --abort
