@@ -237,3 +237,4 @@
 {"gitcommand": "git submodule add <repo_url> <path>","beskrivning": "används för att lägga till ett annat Git-repo som en submodul i ditt projekt"}
 {"gitcommand": "git submodule update --init","beskrivning": "fixar så att submodulerna laddas ner och blir redo att användas"}
 {"gitcommand": " git tag <tagname>","beskrivning": " låter dig namnge en specifik punkt i historiken, som att sätta en märkning på en viktig commit"}
+{"gitcommand": "git tag -a v1.0 -m" "version 1.0 release","beskrivning": "kapar en tagg med namnet v1.0 och lägger till ett meddelande som beskriver den. Som att skriva en liten anteckning för en specifik commit"}
