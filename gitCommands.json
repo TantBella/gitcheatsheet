@@ -156,6 +156,10 @@
         "gitcommand": "git mv <oldfile> <new_file>",
         "beskrivning": "Används för att byta namn på en fil eller flytta den till en ny plats i git-repositoriet."
     },
+    {
+        "gitcommand": "git pull",
+        "beskrivning": "Används för att hämta och slå samman de senaste ändringarna från fjärr-repositoriet (origin) till din aktuella branch."
+    },
 
 
 
