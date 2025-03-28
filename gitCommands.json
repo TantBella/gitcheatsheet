@@ -42,8 +42,8 @@
 {"gitcommand": "git clone (url)",
 "beskrivning": "Skapar en lokal kopia av ett repository. Används för att ladda ner ett repo."},
 
-
-
+{"gitcommand": "git commit -m message",
+"beskrivning": "Sparar ändringar med ett meddelande. Används för att registrera ändringar."},
 
 
 
