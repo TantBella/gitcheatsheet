@@ -227,3 +227,4 @@
 {"gitcommand": " git reset [file]","beskrivning": "tar bort en fil från listan över ändringar som är redo att committas, men behåller ändringarna, det är som att säga inte redo än för just den filen "}
 {"gitcommand": "git revert [commit]","beskrivning": "skapa en ny commit som tar bort ändringarna från en specifik tidigare commit, utan att ändra historiken"}
 {"gitcommand": "git rm <file>","beskrivning": "tar bort en fil både från Git och din dator"}
+{"gitcommand": " git shortlog","beskrivning": "lista över commits och visar dem sorterade per person som har gjort dem"}
