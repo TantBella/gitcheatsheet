@@ -6,8 +6,8 @@
 {"gitcommand": "git archive --format=zip --output=archive.zip <branch> ",
 "beskrivning": "Skapar ett zip-arkiv av en branch. Används för att spara eller dela en branch." },
 
-
-
+{"gitcommand": "git bisect bad",
+"beskrivning": "Märker en commit som bad under felsökning. Används vid buggsökning."},
 
 
 
