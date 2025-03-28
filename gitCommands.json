@@ -117,13 +117,10 @@
   "gitcommand": "git init",
 "beskrivning": "Används  för att skapa ett nytt Git-repository i en katalog. Det omvandlar en vanlig mapp till ett Git-repository, vilket gör att du kan börja spåra versioner och hantera filändringar med Git."
 },
-
-
-
-
-
-
-
+{
+  "gitcommand": "git log",
+"beskrivning": "Används för att visa historiken av commits i ett Git-repository. Det visar en lista över de senaste commits, inklusive deras hash-id, författare, datum och commit-meddelande."
+},
 
 
 
