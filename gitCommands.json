@@ -85,10 +85,10 @@
   "gitcommand": "git config --global user.name",
 "beskrivning": "Används för att ställa in eller visa det globala användarnamnet i Git."
 },
-
-
-
-
+{
+  "gitcommand": "git config --global user.email",
+"beskrivning": "Används för att ställa in eller visa den globala e-postadressen som används för Git-commits."
+},
 
 
 
