@@ -204,6 +204,10 @@
         "gitcommand": "git remote show origin",
         "beskrivning":  "Visar information om fjärr-repositoryt (origin), inklusive de branches som finns och deras status."
     },
+    {
+        "gitcommand":  "git reset <file>",
+        "beskrivning": "Ångrar ändringar i en specifik fil genom att återställa den till det senaste commitade tillståndet."
+    },
 
 
 
