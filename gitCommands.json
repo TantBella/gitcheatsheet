@@ -172,6 +172,10 @@
         "gitcommand": "git push --force",
         "beskrivning": "Används för att tvinga en push till fjärr-repositoriet, även om det skulle skriva över ändringar i fjärr-repositoriet."
     },
+    {
+        "gitcommand": "git push --set-upstream origin <branch>",
+        "beskrivning": "Används för att sätta en fjärr-branch som upstream för den lokala branchen."
+    },
 
 
 
