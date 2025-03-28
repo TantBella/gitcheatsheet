@@ -297,8 +297,23 @@
 
 
 
-{"Rad300": "Iste"}
+ {"Rad300": "Iste"},
 
+{"gitcommand": "git whatchanged","beskrivning": "Visar historiken av ändringar i projektet, liknande git log men med fler detaljer."},
+{"gitcommand": "git describe --tags","beskrivning": "Visar den senaste taggen som beskriver den aktuella committen."},
+{"gitcommand": "git reset --soft HEAD~1","beskrivning": "Ångrar den senaste committen men behåller ändringarna i staging-branchen."},
+{"gitcommand": "git rebase --interactive HEAD~3","beskrivning": "Gör en interaktiv rebase på de senaste tre committerna för att ändra, slå ihop eller ta bort dem."},
+{"gitcommand": "git push origin --delete <branch>","beskrivning": "Tar bort en gren från fjärrlagringen (GitHub, GitLab, etc.)."},
+{"gitcommand": "git checkout -- .","beskrivning": "Återställer alla ändrade filer i arbetskatalogen till sitt senaste commit-läge."},
+{"gitcommand": "git diff --name-only","beskrivning": "Visar endast namnen på filer som har ändringar mellan commits eller i arbetskatalogen."},
+{"gitcommand": "git cherry -v","beskrivning": "Visar vilka commits som finns i den aktuella grenen men saknas i en annan."},
+{"gitcommand": "git apply <patchfile>","beskrivning": "Applicerar en patch-fil för att införa specifika ändringar i koden."},
+{"gitcommand": "git commit --dry-run","beskrivning": "Simulerar en commit för att visa vilka filer som skulle inkluderas utan att faktiskt commit:a."},
+{"gitcommand": "git grep \"text_to_find\"","beskrivning": "Söker efter en specifik textsträng i Git-versionerade filer. (Skrivs utan bakstreck(\\) som endast är för JSON formateringen)."},
+{"gitcommand": "git checkout HEAD -- <file>","beskrivning": "Återställer en specifik fil till dess senaste commit-läge."},
+{"gitcommand": "git merge --squash <branch>","beskrivning": "Slår ihop en gren men gör ändringarna till en enda commit istället för flera."},
+{"gitcommand": "git commit --fixup <commit>","beskrivning": "Skapar en fixup-commit kopplad till en tidigare commit för att kunna användas vid interaktiv rebase."},
+{"gitcommand": "git commit --squash <commit>","beskrivning": "Kombinerar ändringar från en commit med en tidigare commit vid nästa rebase."}
 
 
 
@@ -351,25 +366,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
 
 
 ]
