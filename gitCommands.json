@@ -73,8 +73,10 @@
 
 
 {"Rad75": "Bella"},
-
-
+{
+  "gitcommand": "git commit --amend",
+"beskrivning": "Används för att ändra den senaste committen. Undvik att använda detta om du redan har pushat committen, eftersom det kan skapa problem med versionshistoriken."
+},
 
 
 
