@@ -188,6 +188,10 @@
         "gitcommand":  "git reflog expire --expire=now --all",
         "beskrivning":  "Används för att ta bort gamla referenser som inte längre är användbara."
     },
+    {
+        "gitcommand": "git remote -v",
+        "beskrivning":  "Visar alla fjärr-repositorier (remote repositories) som är kopplade till ditt lokala git-repository."
+    },
 
 
 
