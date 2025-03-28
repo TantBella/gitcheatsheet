@@ -152,7 +152,10 @@
         "gitcommand": "git merge --no-ff <branch>",
         "beskrivning": "Används för att slå samman en annan branch till den aktuella utan att skapa en extra merge commit."
     },
-
+    {
+        "gitcommand": "git mv <oldfile> <new_file>",
+        "beskrivning": "Används för att byta namn på en fil eller flytta den till en ny plats i git-repositoriet."
+    },
 
 
 
