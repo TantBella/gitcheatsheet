@@ -125,10 +125,10 @@
   "gitcommand": "git log --oneline",
 "beskrivning": "Används för att visa  commit-historiken i en kort och sammanfattad form. Varje commit visas på en enskild rad med en kort version av commit-hashen och commit-meddelandet."
 },
-
-
-
-
+{
+  "gitcommand": "git merge",
+"beskrivning": "Används för att  slå samman ändringar från en annan branch in i den aktuella branch du jobbar på. Det är en central del av att arbeta med brancher i Git och används för att kombinera arbete som gjorts parallellt på olika brancher."
+},
 
 
 
