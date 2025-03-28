@@ -200,6 +200,10 @@
         "gitcommand": "git remote set-url origin <new_repo>",
         "beskrivning":  "Används för att ändra URL:en för fjärr-repositoryt (remote) i ditt git-repository."
     },
+    {
+        "gitcommand": "git remote show origin",
+        "beskrivning":  "Visar information om fjärr-repositoryt (origin), inklusive de branches som finns och deras status."
+    },
 
 
 
