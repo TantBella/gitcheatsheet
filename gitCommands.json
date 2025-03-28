@@ -1,49 +1,49 @@
 [{"Rad1": "Tamara"},
 
+{"gitcommand": "git add",
+"beskrivning": "Lägger till ändringar för commit. Används innan git commit. "},
 
+{"gitcommand": "git archive --format=zip --output=archive.zip <branch> ",
+"beskrivning": "Skapar ett zip-arkiv av en branch. Används för att spara eller dela en branch." },
 
+{"gitcommand": "git bisect bad",
+"beskrivning": "Märker en commit som bad under felsökning. Används vid buggsökning."},
 
+{"gitcommand": "git bisect good <commit>",
+"beskrivning": "Märker en commit som good under felsökning. Används vid buggsökning."},
 
+{"gitcommand": "git bisect start",
+"beskrivning": "Startar en bisect-session. Används vid felsökning för att hitta en bugg."},
 
+{"gitcommand": "git blame <file>",
+"beskrivning": "Visar vem som ändrat varje rad i en fil. Används för att spåra ändringar."},
 
+{"gitcommand": "git branch",
+"beskrivning": "Visar alla lokala branches. Används för att lista branches."},
 
+{"gitcommand":"git branch -D <branch>",
+"beskrivning": "Tar bort en branch. Används för att ta bort en oönskad branch."},
 
+{"gitcommand": "git branch -d <branch>",
+"beskrivning": "Tar bort en sammanslagen branch. Används för att rensa gamla branches."},
 
+{"gitcommand": "git checkout",
+"beskrivning": "Byter branch eller återställer filer. Används för att växla mellan branches."},
 
+{"gitcommand": "git checkout -b <newbranch>",
+"beskrivning": "Skapar och byter till en ny branch. Används för att starta en ny arbetsgren."},
 
+{"gitcommand": "git cherry-pick <commit>",
+"beskrivning": "Tillämpa en commit från en annan branch. Används för att ta med specifika ändringar."},
 
+{"gitcommand": "git clean -f",
+"beskrivning": "Tar bort oanvända filer. Används för att rensa arbetskatalogen."},
 
+{"gitcommand": "git clone (url)",
+"beskrivning": "Skapar en lokal kopia av ett repository. Används för att ladda ner ett repo."},
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{"gitcommand": "git commit -m message",
+"beskrivning": "Sparar ändringar med ett meddelande. Används för att registrera ändringar."},
 
 
 
