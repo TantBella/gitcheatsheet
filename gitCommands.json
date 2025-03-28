@@ -18,8 +18,8 @@
 {"gitcommand": "git blame <file>",
 "beskrivning": "Visar vem som ändrat varje rad i en fil. Används för att spåra ändringar."},
 
-
-
+{"gitcommand": "git branch",
+"beskrivning": "Visar alla lokala branches. Används för att lista branches."},
 
 
 
