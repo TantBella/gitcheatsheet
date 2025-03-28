@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 [{"Rad1": "Tamara"},
 
 {"gitcommand": "git add",
@@ -61,7 +44,6 @@
 
 {"gitcommand": "git commit -m message",
 "beskrivning": "Sparar ändringar med ett meddelande. Används för att registrera ändringar."},
->>>>>>> 07b7ce99ef4390252a03ba7804b484e1c10fb68e
 
 
 
@@ -90,8 +72,6 @@
 
 
 
-<<<<<<< HEAD
-=======
 {"Rad75": "Bella"},
 {
   "gitcommand": "git commit --amend",
@@ -153,7 +133,6 @@
   "gitcommand": "git merge --abort",
 "beskrivning": "Används för att avbryta en pågående merge och återställa din arbetskopia till det tillstånd den var i innan merge-kommandot kördes. Detta är användbart om du stöter på konflikter under merge-processen och inte vill fortsätta merge, utan istället återgå till den tidigare statusen."
 },
->>>>>>> 07b7ce99ef4390252a03ba7804b484e1c10fb68e
 
 
 
@@ -168,8 +147,6 @@
 
 
 
-<<<<<<< HEAD
-=======
 {"Rad150": "Solin"},
     {
         "gitcommand": "git merge --no-ff <branch>",
@@ -233,10 +210,24 @@
     },
     
 {"Rad225": "Viola"},
->>>>>>> 07b7ce99ef4390252a03ba7804b484e1c10fb68e
 
 
 
+{"gitcommand": " git reset --hard","beskrivning": "återställer till den senaste commiten"},
+{"gitcommand": " git reset [file]","beskrivning": "tar bort en fil från listan över ändringar som är redo att committas, men behåller ändringarna, det är som att säga inte redo än för just den filen "},
+{"gitcommand": "git revert [commit]","beskrivning": "skapa en ny commit som tar bort ändringarna från en specifik tidigare commit, utan att ändra historiken"},
+{"gitcommand": "git rm <file>","beskrivning": "tar bort en fil både från Git och din dator"},
+{"gitcommand": " git shortlog","beskrivning": "lista över commits och visar dem sorterade per person som har gjort dem"},
+{"gitcommand": "git show <commit>","beskrivning": "visar detaljer om en specifik commit som vad som ändrats vem som gjort det och när"},
+{"gitcommand": " git stash","beskrivning": "sparar undan dina ändringar tillfälligt"},
+{"gitcommand": "git stash apply","beskrivning": " tar fram de ändringar du tidigare sparat undan med git stash"},
+{"gitcommand": " git stash list","beskrivning": "visar en lista över alla sparade ändringar du lagt undan med git stash"},
+{"gitcommand": "git stash pop","beskrivning": "tar fram de senaste sparade ändringarna från git stash och tar bort dem från listan."},
+{"gitcommand": " git status","beskrivning": "Det berättar vilka filer som har ändrats, vilka som är redo att committas, och vilka som inte spåras.Visar ditt git status"},
+{"gitcommand": "git submodule add <repo_url> <path>","beskrivning": "används för att lägga till ett annat Git-repo som en submodul i ditt projekt"},
+{"gitcommand": "git submodule update --init","beskrivning": "fixar så att submodulerna laddas ner och blir redo att användas"},
+{"gitcommand": " git tag <tagname>","beskrivning": " låter dig namnge en specifik punkt i historiken, som att sätta en märkning på en viktig commit"},
+{"gitcommand": "git tag -a v1.0 -m version 1.0 release","beskrivning": "kapar en tagg med namnet v1.0 och lägger till ett meddelande som beskriver den. Som att skriva en liten anteckning för en specifik commit"},
 
 
 
@@ -308,9 +299,8 @@
 
 
 
-<<<<<<< HEAD
 
-=======
+
  {"Rad300": "Iste"},
 
 {"gitcommand": "git whatchanged","beskrivning": "Visar historiken av ändringar i projektet, liknande git log men med fler detaljer."},
@@ -328,7 +318,6 @@
 {"gitcommand": "git merge --squash <branch>","beskrivning": "Slår ihop en gren men gör ändringarna till en enda commit istället för flera."},
 {"gitcommand": "git commit --fixup <commit>","beskrivning": "Skapar en fixup-commit kopplad till en tidigare commit för att kunna användas vid interaktiv rebase."},
 {"gitcommand": "git commit --squash <commit>","beskrivning": "Kombinerar ändringar från en commit med en tidigare commit vid nästa rebase."}
->>>>>>> 07b7ce99ef4390252a03ba7804b484e1c10fb68e
 
 
 
@@ -381,64 +370,6 @@
 
 
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{"gitcommand": " git reset --hard","beskrivning": "återställer till den senaste commiten"}
-{"gitcommand": " git reset [file]","beskrivning": "tar bort en fil från listan över ändringar som är redo att committas, men behåller ändringarna, det är som att säga inte redo än för just den filen "}
-{"gitcommand": "git revert [commit]","beskrivning": "skapa en ny commit som tar bort ändringarna från en specifik tidigare commit, utan att ändra historiken"}
-{"gitcommand": "git rm <file>","beskrivning": "tar bort en fil både från Git och din dator"}
-{"gitcommand": " git shortlog","beskrivning": "lista över commits och visar dem sorterade per person som har gjort dem"}
-{"gitcommand": "git show <commit>","beskrivning": "visar detaljer om en specifik commit som vad som ändrats vem som gjort det och när"}
-{"gitcommand": " git stash","beskrivning": "sparar undan dina ändringar tillfälligt"}
-{"gitcommand": "git stash apply","beskrivning": " tar fram de ändringar du tidigare sparat undan med git stash"}
-{"gitcommand": " git stash list","beskrivning": "visar en lista över alla sparade ändringar du lagt undan med git stash"}
-{"gitcommand": "git stash pop","beskrivning": "tar fram de senaste sparade ändringarna från git stash och tar bort dem från listan."}
-{"gitcommand": " git status","beskrivning": "Det berättar vilka filer som har ändrats, vilka som är redo att committas, och vilka som inte spåras.Visar ditt git status"}
-{"gitcommand": "git submodule add <repo_url> <path>","beskrivning": "används för att lägga till ett annat Git-repo som en submodul i ditt projekt"}
-{"gitcommand": "git submodule update --init","beskrivning": "fixar så att submodulerna laddas ner och blir redo att användas"}
-{"gitcommand": " git tag <tagname>","beskrivning": " låter dig namnge en specifik punkt i historiken, som att sätta en märkning på en viktig commit"}
-{"gitcommand": "git tag -a v1.0 -m" "version 1.0 release","beskrivning": "kapar en tagg med namnet v1.0 och lägger till ett meddelande som beskriver den. Som att skriva en liten anteckning för en specifik commit"}
-=======
  
  
  
@@ -446,4 +377,3 @@
 
 
 ]
->>>>>>> 07b7ce99ef4390252a03ba7804b484e1c10fb68e
